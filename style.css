@@ -1,24 +1,92 @@
+@media (max-width: 4096px) {
+    /* .main {
+        max-width: 1200px;
+    } */
+    
+    .album-cover {
+        width: 550px;
+    }
+
+    .social-media-logo {
+        width: 180px;
+    }
+    h1 {
+        font-size: 60px;
+        margin-bottom: 5px;
+        margin-right: 25px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:1200px) {
+    
+    .album-cover {
+        width: 500px;
+    }
+
+    .social-media-logo {
+        width: 163px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:992px) {
+    /* .main {
+        max-width: 750px;
+    } */
+    .album-cover {
+        width: 400px;
+    }
+    
+    .social-media-logo {
+        width: 270px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    /* .main {
+        max-width: none;
+    } */
+    
+    .album-cover {
+        width: 350px;
+    }
+    
+    .social-media-logo {
+        width: 230px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+html {
+    background: url("./assets/bgphoto.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+.container > * {
+    margin: 0px auto;
 }
 
 h1 {
-    font-size: 70px;
-    margin-bottom: 15px;
-    
-    margin-right: 70px;
-    margin-top: -10px;
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px 4px black;
 }
-
-.social-media-logo {
-    width: 300px;
-    /* box-shadow: 0 0 5px black; */
-}
-
 
 .backgroundVideo {
     opacity: 50%;
@@ -29,6 +97,4 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: -1;
     filter: brightness(60%);
-
 }
-
