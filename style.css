@@ -6,32 +6,50 @@ html {
     background-size: cover;
 }
 
-/* main {
+html, body {
     width: 100%;
-    margin: 0 auto;
-} */
+    height: 100%;
+}
+
+.content {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border: 5px dashed black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: auto;
+}
 
 .container {
     display: grid;
     grid-template-columns: 1.65fr 1fr;
 }
 
-.albums {
-    justify-self: end;
-    align-items: end;
+/* .albums {
+    align-items: center;
+} */
+
+.social-media-links {
+    justify-self: center;
+    align-items: center;
 }
 
 .album-cover {
-    height: 450px;
+    width: 420px;
 }
 
 .social-media-logo {
-    width: 147px;
+    width: 136px;
 }
-
 
 .touch-me  {
     width: fit-content;
+    margin-bottom: 10px;    
+    margin: 0 auto;
     margin-bottom: 10px;
 }
 
