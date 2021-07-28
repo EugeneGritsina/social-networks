@@ -15,21 +15,31 @@
 <body>
     <main>
         <div class="container">
-            <h1>offline meetup</h1>
+            <div class="touch-me">
+                <button class="touch-me-button">touch me</button>
+            </div>
             <div class="albums">
                 <a href="https://music.mediacube.network/CatOnTheHotBricks"><img src="./assets/cover1.png" class="album-cover"></a>
                 <a href="https://band.link/offlinemeetup_misly"><img src="./assets/cover2.png" class="album-cover"></a>
             </div>
-            <div>
-                <a id="tiktok" href="https://www.tiktok.com/@offline_meetup?"><img src="./assets/tiktok.png" class="social-media-logo"></a>
-                <a id="instagram" href="https://www.instagram.com/offline_meetup"><img src="./assets/instagram.png"class="social-media-logo"></a>
-                <a id="telegram" href="https://t.me/offline_meetup"><img src="./assets/tg.png" class="social-media-logo"></a>
-                <a id="vk" href="https://vk.com/eugene_om"><img src="./assets/uservk.png" class="social-media-logo"></a>
-                <a id="vk-community" href="https://vk.com/offline_meetup"><img src="./assets/community.png" class="social-media-logo"></a>
-                <a id="facebook"  href="https://www.facebook.com/offlinemeetup"><img src="./assets/fb.png"  class="social-media-logo"></a>
+            <div class="social-media-links">
+                <div>
+                    <a id="tiktok" href="https://www.tiktok.com/@offline_meetup?"><img src="./assets/tiktok.png" class="social-media-logo"></a>
+                    <a id="instagram" href="https://www.instagram.com/offline_meetup"><img src="./assets/instagram.png"class="social-media-logo"></a>
+                    <a id="telegram" href="https://t.me/offline_meetup"><img src="./assets/tg.png" class="social-media-logo"></a>
+                </div>
+                <div>
+                    <a id="vk" href="https://vk.com/eugene_om"><img src="./assets/uservk.png" class="social-media-logo"></a>
+                    <a id="vk-community" href="https://vk.com/offline_meetup"><img src="./assets/community.png" class="social-media-logo"></a>
+                    <a id="facebook"  href="https://www.facebook.com/offlinemeetup"><img src="./assets/fb.png"  class="social-media-logo"></a>
+                </div>
             </div>
         </div>
     </main>
+    <script>
+        var button = document.querySelector('.touch-me-button');
+        button.addEventListener("click", () => alert('❤ u r cute ❤'), false);
+    </script>
     <!-- <video autoPlay muted loop class="backgroundVideo">
         <source src="./backgroundvideo.mp4" type='video/mp4'/>
     </video> -->

@@ -1,67 +1,104 @@
 @media (max-width: 4096px) {
-    /* .main {
-        max-width: 1200px;
-    } */
-    
     .album-cover {
         width: 550px;
     }
-
     .social-media-logo {
         width: 180px;
     }
-    h1 {
-        font-size: 60px;
-        margin-bottom: 5px;
-        margin-right: 25px;
-        margin-top: 10px;
+    .social-media-links > div{
+        display: inline;
     }
 }
 
 @media (max-width:1200px) {
-    
     .album-cover {
         width: 500px;
     }
-
     .social-media-logo {
         width: 163px;
     }
-    h1 {
-        font-size: 50px;
+}
+
+@media (max-width:1100px) {
+    .album-cover {
+        width: 400px;
+    }
+    .social-media-logo {
+        width: 127px;
     }
 }
 
 @media (max-width:992px) {
-    /* .main {
-        max-width: 750px;
-    } */
     .album-cover {
         width: 400px;
     }
-    
     .social-media-logo {
-        width: 270px;
+        width: 170px;
     }
-    h1 {
-        font-size: 30px;
+    .social-media-links > div{
+        display: block;
+    }
+}
+
+@media (max-width:852px) {
+    .album-cover {
+        width: 300px;
+    }
+    .social-media-logo {
+        width: 170px;
+    }
+    .social-media-links > div{
+        display: block;
     }
 }
 
 @media (max-width:767px) {
-    /* .main {
-        max-width: none;
-    } */
-    
     .album-cover {
-        width: 350px;
+        width: 320px;
+    }
+    .social-media-logo {
+        width: 180px;
+    }
+}
+
+@media (max-width:680px) {
+    .album-cover {
+        width: 270px;
     }
     
     .social-media-logo {
-        width: 230px;
+        width: 150px;
     }
     h1 {
-        font-size: 30px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width:580px) {
+    .album-cover {
+        width: 230px;
+    }
+    .social-media-logo {
+        width: 130px;
+    }
+}
+
+@media (max-width:480px) {
+    .album-cover {
+        width: 170px;
+    }
+    .social-media-logo {
+        width: 100px;
+    }
+}
+
+
+@media (max-width:340px) {
+    .album-cover {
+        width: 180px;
+    }
+    .social-media-logo {
+        width: 70px;
     }
 }
 
@@ -97,4 +134,14 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: -1;
     filter: brightness(60%);
+}
+
+.touch-me  {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.touch-me > button {
+    box-shadow: 5px 5px 5px;
 }
