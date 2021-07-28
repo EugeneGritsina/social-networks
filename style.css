@@ -6,17 +6,14 @@ html {
     background-size: cover;
 }
 
+/* main {
+    width: 100%;
+    margin: 0 auto;
+} */
 
 .container {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-areas:
-    "a a b"
-    "a a c"
-    "a a d"
-    "q q e"
-    "q q f"
-    "q q g";
+    grid-template-columns: 1.65fr 1fr;
 }
 
 .albums {
@@ -24,40 +21,12 @@ html {
     align-items: end;
 }
 
-#cover1 {
-    grid-area: a;
-}
-
-#cover2 {
-    grid-area: q;
-}
-
-#tiktok {
-    grid-area: b;
-}
-
-#instagram {
-    grid-area: c;
-}
-
-#telegram {
-    grid-area: d;
-}
-
-#vk {
-    grid-area: e;
-}
-
-#vk-community {
-    grid-area: f;
-}
-
-#facebook {
-    grid-area: g;
+.album-cover {
+    height: 450px;
 }
 
 .social-media-logo {
-    width: 163px;
+    width: 147px;
 }
 
 
