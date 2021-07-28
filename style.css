@@ -26,16 +26,11 @@ html, body {
 
 .container {
     display: grid;
-    grid-template-columns: 1.65fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
-
-/* .albums {
-    align-items: center;
-} */
 
 .social-media-links {
     justify-self: center;
-    align-items: center;
 }
 
 .album-cover {
